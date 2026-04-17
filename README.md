@@ -1,11 +1,11 @@
-# ai
+# skills
 
 Claude Code 커맨드와 스킬 모음입니다.
 
 ## 구조
 
 ```
-ai/
+skills/
 ├── commands/   # 슬래시 커맨드
 └── skills/     # 스킬
 ```
@@ -24,15 +24,14 @@ ai/
 | `readme` | README.md 작성 |
 | `prd` | PRD.md 생성 (제품 요구사항 문서) |
 | `wrd` | WRD.md 생성 (작업 요구사항 문서) |
-| `frontend-fundamental-review` | Toss Frontend Fundamentals 기준 코드 리뷰 |
-| `tt-design` | Toss 디자인 철학 기반 UX 자문 |
+| `frontend-fundamental-review` | 프론트엔드 원칙 기준 코드 리뷰 |
 
 ## 커맨드 목록
 
 | 커맨드 | 설명 |
 |--------|------|
 | `/write-markdown-article` | 블로그 글 작성 |
-| `/toss-tech-design-knowledge` | Toss Tech 디자인 아티클 검색 |
+| `/toss-tech-design-knowledge` | 디자인 아티클 검색 |
 
 ---
 
@@ -41,7 +40,7 @@ ai/
 ### 1. 새 프로젝트에 추가
 
 ```bash
-git submodule add git@github.com:klmhyeonwoo/ai.git .claude
+git submodule add git@github.com:klmhyeonwoo/skills.git .claude
 ```
 
 `.claude/` 자체가 이 레포가 되므로 `commands/`와 `skills/`를 Claude Code가 바로 인식합니다.
