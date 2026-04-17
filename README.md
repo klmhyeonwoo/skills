@@ -12,25 +12,25 @@ skills/
 
 ## 스킬 목록
 
-| 스킬 | 설명 |
-|------|------|
-| `commit-message` | 변경사항 보고 커밋 메시지 자동 작성 |
-| `pr-description` | PR 설명 자동 생성 |
-| `test-writer` | 코드 보고 테스트 자동 작성 |
-| `performance-review` | 성능 이슈 분석 |
-| `accessibility-review` | 웹 접근성 검토 (WCAG 2.1) |
-| `refactor` | 리팩토링 제안 |
-| `jsdoc` | JSDoc 주석 자동 생성 |
-| `readme` | README.md 작성 |
-| `prd` | PRD.md 생성 (제품 요구사항 문서) |
-| `wrd` | WRD.md 생성 (작업 요구사항 문서) |
-| `frontend-fundamental-review` | 프론트엔드 원칙 기준 코드 리뷰 |
+| 스킬                          | 설명                                |
+| ----------------------------- | ----------------------------------- |
+| `commit-message`              | 변경사항 보고 커밋 메시지 자동 작성 |
+| `pr-description`              | PR 설명 자동 생성                   |
+| `test-writer`                 | 코드 보고 테스트 자동 작성          |
+| `performance-review`          | 성능 이슈 분석                      |
+| `accessibility-review`        | 웹 접근성 검토 (WCAG 2.1)           |
+| `refactor`                    | 리팩토링 제안                       |
+| `jsdoc`                       | JSDoc 주석 자동 생성                |
+| `readme`                      | README.md 작성                      |
+| `prd`                         | PRD.md 생성 (제품 요구사항 문서)    |
+| `wrd`                         | WRD.md 생성 (작업 요구사항 문서)    |
+| `frontend-fundamental-review` | 프론트엔드 원칙 기준 코드 리뷰      |
 
 ## 커맨드 목록
 
-| 커맨드 | 설명 |
-|--------|------|
-| `/write-markdown-article` | 블로그 글 작성 |
+| 커맨드                        | 설명               |
+| ----------------------------- | ------------------ |
+| `/write-markdown-article`     | 블로그 글 작성     |
 | `/toss-tech-design-knowledge` | 디자인 아티클 검색 |
 
 ---
@@ -40,7 +40,7 @@ skills/
 ### 1. 새 프로젝트에 추가
 
 ```bash
-git submodule add git@github.com:klmhyeonwoo/skills.git .claude
+git submodule add https://github.com/klmhyeonwoo/skills.git .claude
 ```
 
 `.claude/` 자체가 이 레포가 되므로 `commands/`와 `skills/`를 Claude Code가 바로 인식합니다.
